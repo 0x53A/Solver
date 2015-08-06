@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Solver", "Solver\Solver.fsproj", "{D448B814-8D85-427B-AFAC-6B67C1476330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ext", "Ext\Ext.csproj", "{2921D024-B580-4F17-B1A7-4181C22D75FF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sketcher", "Sketcher\Sketcher.fsproj", "{2858BEF1-27D7-4B71-9958-9F20AF3EBA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D448B814-8D85-427B-AFAC-6B67C1476330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D448B814-8D85-427B-AFAC-6B67C1476330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D448B814-8D85-427B-AFAC-6B67C1476330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D448B814-8D85-427B-AFAC-6B67C1476330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2921D024-B580-4F17-B1A7-4181C22D75FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2921D024-B580-4F17-B1A7-4181C22D75FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2921D024-B580-4F17-B1A7-4181C22D75FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2921D024-B580-4F17-B1A7-4181C22D75FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2858BEF1-27D7-4B71-9958-9F20AF3EBA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2858BEF1-27D7-4B71-9958-9F20AF3EBA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2858BEF1-27D7-4B71-9958-9F20AF3EBA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2858BEF1-27D7-4B71-9958-9F20AF3EBA71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
