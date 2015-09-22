@@ -80,8 +80,9 @@ let run maxIterations expressions initialValues =
     
     let jacobiMatrix = CreateDeriverateMatrix expressions allVariables
     
-    printfn "======Jacobi======"
-    jacobiMatrix |> Array2D.iteri (fun x y e -> printfn "[%i,%i] f(%s) = %s" x y (allVariables.[y].Name) (e.ToString()))
+    //do
+    //    printfn "======Jacobi======"
+    //    jacobiMatrix |> Array2D.iteri (fun x y e -> printfn "[%i,%i] f(%s) = %s" x y (allVariables.[y].Name) (e.ToString()))
 
     let rec iterate iIteration maxIterations previousValues = 
         let valueMatrix = 

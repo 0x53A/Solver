@@ -197,7 +197,7 @@ type ConstraintTests() =
                 HorizontalDistance(l1, 0.)
                 VerticalOffset(l1, 20.)
 
-                VerticalOffset(l2, 10.)
+                //VerticalOffset(l2, 10.)
 
                 Angle(l1, l2, 45.)
             ]
